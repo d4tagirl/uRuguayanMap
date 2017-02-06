@@ -1,4 +1,4 @@
-# uRuguayMap
+# uRuguayanMap
 
 I made a beautiful map to show where I'm from. 
 
