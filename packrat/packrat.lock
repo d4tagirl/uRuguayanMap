@@ -53,6 +53,11 @@ Version: 2.1.0
 Hash: 50e297b0191179c39c7dcae0eff72b51
 Requires: digest, gtable, plyr, reshape2, scales
 
+Package: gpclib
+Source: CRAN
+Version: 1.5-5
+Hash: 194b84b1e4f183ef2f622804d01124da
+
 Package: gtable
 Source: CRAN
 Version: 0.2.0

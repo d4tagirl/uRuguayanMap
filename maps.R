@@ -3,6 +3,7 @@ shapefile_uru <- readShapeSpatial('shapefileUruguay/uruguay.shp',
                                   proj4string = CRS("+proj=longlat +datum=WGS84"))
 
 ## unify polygons
+install.packages("gpclib")
 gpclibPermit()
 shapefile_uru_union <- unionSpatialPolygons(shapefile_uru, 
                                             IDs = rep(1, length(shapefile_uru)))
@@ -75,3 +76,6 @@ map_continent_uru_par <- continent +
             colour = "purple") +
   # Filling colors
   scale_fill_manual(values = c("purple", "grey"), guide = FALSE) 
+
+save.image("uRuguayMap.Rdata")
+
