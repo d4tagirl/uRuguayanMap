@@ -1,6 +1,6 @@
 # uRuguayanMap
 
-I made a beautiful map to show where I'm from. 
+Inspired in [@masalmon](https://github.com/masalmon)'s [blog post](http://www.masalmon.eu/2017/01/26/morewater/) I made a beautiful map to show where I'm from. 
 
 ![alt tag](https://github.com/d4tagirl/uRuguayMap/blob/master/mapContinentUru.jpeg)
 
