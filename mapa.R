@@ -1,5 +1,5 @@
 library(maptools)
-shapefile_uru <- readShapeSpatial('uruguay/uruguay.shp',
+shapefile_uru <- readShapeSpatial('shapefileUruguay/uruguay.shp',
                                   proj4string = CRS("+proj=longlat +datum=WGS84"))
 
 ## unify polygons
@@ -42,7 +42,7 @@ map_continent_uru <- continent +
 
 ######## PARAGUAY
 
-shapefile_par <- readShapeSpatial('paraguay/Departamentos de Paraguay/TodosDepartamentos.shp', 
+shapefile_par <- readShapeSpatial('shapefileParaguay/Departamentos de Paraguay/TodosDepartamentos.shp', 
                                   proj4string = CRS("+proj=longlat +datum=WGS84"))
 
 ## unify polygons
