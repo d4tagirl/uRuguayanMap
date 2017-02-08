@@ -6,7 +6,7 @@ Inspired in [@masalmon](https://github.com/masalmon)'s [blog post](http://www.ma
 
 Since people usually mix Uruguay and Paraguay up, I also made this other one :)
 
-![alt tag](https://github.com/d4tagirl/uRuguayMap/blob/master/mapContinentUruPar.jpeg)
+![alt tag](https://github.com/d4tagirl/uRuguayanMap/blob/master/mapContinentUruPar.jpg)
 
 I used:
 
