@@ -65,17 +65,17 @@ map_par <- ggplot(aes(x = long, y = lat, group = group, fill = id),
 
 map_continent_uru_par <- continent +
   # Paraguay
-  geom_polygon(aes(x = long, y = lat, group = group, fill = id), data = data_par,
-               colour = 'black', alpha = .4) +
+  geom_polygon(aes(x = long, y = lat, group = group, fill = id), data = data_par, 
+               colour = 'blue', alpha = .4) +
   geom_path(aes(x = long, y = lat, group = group), data = data_par, 
-            colour = "black") +
+            colour = "blue") +
   # Uruguay
   geom_polygon(aes(x = long, y = lat, group = group, fill = id), data = data_uru,
                colour = 'purple', alpha = .6) +
   geom_path(aes(x = long, y = lat, group = group), data = data_uru, 
             colour = "purple") +
   # Filling colors
-  scale_fill_manual(values = c("purple", "grey"), guide = FALSE) 
+  scale_fill_manual(values = c("purple", "blue"), guide = FALSE) 
 
 save.image("uRuguayMap.Rdata")
 
